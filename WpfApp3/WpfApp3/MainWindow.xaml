@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="354" Margin="373,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="139"/>
+
+        <Ellipse x:Name="lamp1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="397,25,0,0" Stroke="Black" VerticalAlignment="Top" Width="100" />
+        <Ellipse x:Name="lamp2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="397,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Ellipse x:Name="lamp3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="397,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="schet" Content="Label" HorizontalAlignment="Left" Margin="65,101,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
